@@ -151,7 +151,7 @@ const RegisterFB = () => {
                       <p className="text-medium-emphasis">Create your account</p>
                       <CInputGroup className="mb-3">
                         <CInputGroupText>
-                          <CIcon icon="cil-user" />
+                          <CIcon icon={React.icons.cilUser} />
                         </CInputGroupText>
                         <CFormControl
                           placeholder="Your Chinese Name"
@@ -161,7 +161,7 @@ const RegisterFB = () => {
                       </CInputGroup>
                       <CInputGroup className="mb-3">
                         <CInputGroupText>
-                          <CIcon icon="cil-education" />
+                          <CIcon icon={React.icons.cilEducation} />
                         </CInputGroupText>
                         <CFormControl
                           placeholder="Student ID"
@@ -176,7 +176,7 @@ const RegisterFB = () => {
                         onBlur={constract}
                       >
                         <CInputGroupText>
-                          <CIcon icon="cil-image" />
+                          <CIcon icon={React.icons.cilImage} />
                         </CInputGroupText>
                         <CFormControl
                           id="formFile1"

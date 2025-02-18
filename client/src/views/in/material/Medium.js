@@ -154,13 +154,13 @@ const Medium = () => {
             {visibles[key] ? (
               <CIcon
                 onClick={() => setVisibles({ ...visibles, [key]: false })}
-                icon="cil-caret-bottom"
+                icon={React.icons.cilCaretBottom}
                 className="mx-2"
               />
             ) : (
               <CIcon
                 onClick={() => setVisibles({ ...visibles, [key]: true })}
-                icon="cil-caret-right"
+                icon={React.icons.cilCaretRight}
                 className="mx-2"
               />
             )}

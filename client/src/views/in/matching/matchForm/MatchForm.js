@@ -188,7 +188,7 @@ const MatchForm = () => {
 
                   <CInputGroup className="mb-4">
                     <CInputGroupText>
-                      <CIcon icon="cil-layers" />
+                      <CIcon icon={React.icons.cilLayers} />
                     </CInputGroupText>
                     <CFormControl
                       className={requiredStyle.name}
@@ -204,7 +204,7 @@ const MatchForm = () => {
                   {!senior && (
                     <CInputGroup className="mb-4">
                       <CInputGroupText>
-                        <CIcon icon="cil-dollar" />
+                        <CIcon icon={React.icons.cilDollar} />
                       </CInputGroupText>
                       <CFormControl
                         data-for="studentID"
@@ -219,7 +219,7 @@ const MatchForm = () => {
                   )}
                   <CInputGroup className="mb-4">
                     <CInputGroupText>
-                      <CIcon icon="cil-send" />
+                      <CIcon icon={React.icons.cilSend} />
                     </CInputGroupText>
                     <CFormControl
                       className={requiredStyle.email}
@@ -237,7 +237,7 @@ const MatchForm = () => {
                   </h5>
                   <CInputGroup className="mb-3">
                     <CInputGroupText>
-                      <CIcon icon="cil-braille" />
+                      <CIcon icon={React.icons.cilBraille} />
                     </CInputGroupText>
                     <CFormControl
                       className={requiredStyle.major}
@@ -294,7 +294,7 @@ const MatchForm = () => {
                   </h5>
                   <CInputGroup className="mb-4">
                     <CInputGroupText>
-                      <CIcon icon="cil-education" />
+                      <CIcon icon={React.icons.cilEducation} />
                     </CInputGroupText>
                     <CFormControl
                       placeholder="Overall GPA(in 4.3 scale)"
@@ -308,7 +308,7 @@ const MatchForm = () => {
                       <h5 className="text-medium-emphasis">請填入您現在就讀的學校</h5>
                       <CInputGroup className="mb-4">
                         <CInputGroupText>
-                          <CIcon icon="cil-dollar" />
+                          <CIcon icon={React.icons.cilDollar} />
                         </CInputGroupText>
                         <CFormControl
                           className={requiredStyle.school}
@@ -321,7 +321,7 @@ const MatchForm = () => {
                       <h5 className="text-medium-emphasis">請問您想接收幾位學弟妹呢?</h5>
                       <CInputGroup className="mb-4">
                         <CInputGroupText>
-                          <CIcon icon="cil-education" />
+                          <CIcon icon={React.icons.cilEducation} />
                         </CInputGroupText>
                         <CFormControl
                           placeholder="Number of juniors you'd like to mentor"
@@ -335,7 +335,7 @@ const MatchForm = () => {
                       </h5>
                       <CInputGroup className="mb-4">
                         <CInputGroupText>
-                          <CIcon icon="cil-braille" />
+                          <CIcon icon={React.icons.cilBraille} />
                         </CInputGroupText>
                         <CFormControl
                           placeholder="Your Admissions"
@@ -399,7 +399,7 @@ const MatchForm = () => {
                       <h5 className="text-medium-emphasis">你的夢想學校(若有多個請用 , 分開)</h5>
                       <CInputGroup className="mb-4">
                         <CInputGroupText>
-                          <CIcon icon="cil-dollar" />
+                          <CIcon icon={React.icons.cilDollar} />
                         </CInputGroupText>
                         <CFormControl
                           className={requiredStyle.school1}
@@ -412,7 +412,7 @@ const MatchForm = () => {
                       <h5 className="text-medium-emphasis">稍有把握的學校(若有多個請用 , 分開)</h5>
                       <CInputGroup className="mb-4">
                         <CInputGroupText>
-                          <CIcon icon="cil-dollar" />
+                          <CIcon icon={React.icons.cilDollar} />
                         </CInputGroupText>
                         <CFormControl
                           className={requiredStyle.school2}
@@ -425,7 +425,7 @@ const MatchForm = () => {
                       <h5 className="text-medium-emphasis">你的保底學校(若有多個請用 , 分開)</h5>
                       <CInputGroup className="mb-4">
                         <CInputGroupText>
-                          <CIcon icon="cil-dollar" />
+                          <CIcon icon={React.icons.cilDollar} />
                         </CInputGroupText>
                         <CFormControl
                           placeholder="Your Guaranteed Colleges"

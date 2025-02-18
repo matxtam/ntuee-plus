@@ -21,7 +21,7 @@ const Applicant = ({ person, setIsModal, setModalPerson }) => {
       </div>
       <div className="col-1">
         <CButton color="primary" onClick={() => show()}>
-          <CIcon icon="cil-search" />
+          <CIcon icon={React.icons.cilSearch} />
         </CButton>
       </div>
     </div>

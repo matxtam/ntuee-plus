@@ -122,7 +122,7 @@ const Editor = ({ visible, setVisible, add, dataForm, setDataForm, refetch }) =>
           <CForm ref={formRef} validated={validated} noValidate>
             <CInputGroup className="mb-3">
               <CInputGroupText>
-                <CIcon icon="cil-calendar" />
+                <CIcon icon={React.icons.cilCalendar} />
               </CInputGroupText>
               <CFormControl
                 required
@@ -142,7 +142,7 @@ const Editor = ({ visible, setVisible, add, dataForm, setDataForm, refetch }) =>
             </CInputGroup>
             <CInputGroup className="mb-3">
               <CInputGroupText>
-                <CIcon icon="cil-user" />
+                <CIcon icon={React.icons.cilUser} />
               </CInputGroupText>
               <CFormControl
                 required
@@ -164,7 +164,7 @@ const Editor = ({ visible, setVisible, add, dataForm, setDataForm, refetch }) =>
                 <Fragment key={index}>
                   <CInputGroup className="mb-3">
                     <CInputGroupText>
-                      <CIcon icon="cil-user" />
+                      <CIcon icon={React.icons.cilUser} />
                     </CInputGroupText>
                     <CFormControl
                       type="text"
@@ -191,7 +191,7 @@ const Editor = ({ visible, setVisible, add, dataForm, setDataForm, refetch }) =>
                   <CInputGroup className="mb-3">
                     <CInputGroupText className={dataForm.people[index].img ? 'bg-info' : ''}>
                       <CIcon
-                        icon="cil-image"
+                        icon={React.icons.cilImage}
                         onMouseEnter={() => handleEnterImgIcon(index)}
                         onMouseLeave={() => handleLeaveImgIcon(index)}
                       />
@@ -222,7 +222,7 @@ const Editor = ({ visible, setVisible, add, dataForm, setDataForm, refetch }) =>
             })}
             <CInputGroup className="mb-4 d-flex flex-row">
               <CInputGroupText>
-                <CIcon icon="cil-user" />
+                <CIcon icon={React.icons.cilUser} />
               </CInputGroupText>
               <CButton
                 type="button"

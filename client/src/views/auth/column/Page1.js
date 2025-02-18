@@ -65,7 +65,7 @@ const Page1 = ({
       {/* 1-1 Name */}
       <CInputGroup className="mb-3">
         <CInputGroupText>
-          <CIcon icon="cil-user" />
+          <CIcon icon={React.icons.cilUser} />
         </CInputGroupText>
         <CFormControl
           data-for="name"
@@ -128,7 +128,7 @@ const Page1 = ({
         return (
           <CInputGroup className="mb-3" key={index}>
             <CInputGroupText>
-              <CIcon icon="cilEducation" />
+              <CIcon icon={React.icons.cilEducation} />
             </CInputGroupText>
             <CFormControl
               data-for="edu"
@@ -156,7 +156,7 @@ const Page1 = ({
       {/* 1-5 */}
       <CInputGroup className="mb-3">
         <CInputGroupText>
-          <CIcon icon="cil-lightbulb" />
+          <CIcon icon={React.icons.cilLightbulb} />
         </CInputGroupText>
         <CFormControl
           data-for="hashtags"
