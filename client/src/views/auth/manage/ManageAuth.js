@@ -77,7 +77,7 @@ function ManageAuth() {
           onKeyPress={handleEnter}
         />
         <CButton onClick={handleSearch}>
-          <CIcon icon="cil-search" />
+          <CIcon icon={React.icons.cilSearch} />
         </CButton>
       </CInputGroup>
       <br />

@@ -61,7 +61,7 @@ const ChangePsw = () => {
                   <p> </p>
                   <CInputGroup className="mb-3">
                     <CInputGroupText>
-                      <CIcon icon="cil-lock-locked" />
+                      <CIcon icon={React.icons.cilLockLocked} />
                     </CInputGroupText>
                     <CFormControl
                       placeholder="Old Password"
@@ -71,7 +71,7 @@ const ChangePsw = () => {
                   </CInputGroup>
                   <CInputGroup className="mb-3">
                     <CInputGroupText>
-                      <CIcon icon="cil-lock-locked" />
+                      <CIcon icon={React.icons.cilLockLocked} />
                     </CInputGroupText>
                     <CFormControl
                       placeholder="New Password"

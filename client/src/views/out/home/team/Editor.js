@@ -122,7 +122,7 @@ const Editor = ({ visible, setVisible, dataForm, originData, setDataForm, refetc
                 <Fragment key={index}>
                   <CInputGroup className="mb-3">
                     <CInputGroupText>
-                      <CIcon icon="cil-user" />
+                      <CIcon icon={React.icons.cilUser} />
                     </CInputGroupText>
                     <CFormControl
                       data-for="name"
@@ -140,7 +140,7 @@ const Editor = ({ visible, setVisible, dataForm, originData, setDataForm, refetc
                   </CInputGroup>
                   <CInputGroup className="mb-3">
                     <CInputGroupText>
-                      <CIcon icon="cil-user" />
+                      <CIcon icon={React.icons.cilUser} />
                     </CInputGroupText>
                     <CFormControl
                       data-for="job"
@@ -156,7 +156,7 @@ const Editor = ({ visible, setVisible, dataForm, originData, setDataForm, refetc
                   <CInputGroup className="mb-3">
                     <CInputGroupText className={dataForm[index].img ? 'bg-info' : ''}>
                       <CIcon
-                        icon="cil-image"
+                        icon={React.icons.cilImage}
                         onMouseEnter={() => handleEnterImgIcon(index)}
                         onMouseLeave={() => handleLeaveImgIcon(index)}
                       />
@@ -192,7 +192,7 @@ const Editor = ({ visible, setVisible, dataForm, originData, setDataForm, refetc
             })}
             <CInputGroup className="mb-4 d-flex flex-row">
               <CInputGroupText>
-                <CIcon icon="cil-user" />
+                <CIcon icon={React.icons.cilUser} />
               </CInputGroupText>
               <CButton
                 type="button"

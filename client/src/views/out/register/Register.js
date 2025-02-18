@@ -180,7 +180,7 @@ const Register = () => {
                     </p>
                     <CInputGroup className="mb-3">
                       <CInputGroupText>
-                        <CIcon icon="cil-user" />
+                        <CIcon icon={React.icons.cilUser} />
                       </CInputGroupText>
                       <CFormControl
                         placeholder="Your Chinese Name"
@@ -190,7 +190,7 @@ const Register = () => {
                     </CInputGroup>
                     <CInputGroup className="mb-3">
                       <CInputGroupText>
-                        <CIcon icon="cil-education" />
+                        <CIcon icon={React.icons.cilEducation} />
                       </CInputGroupText>
                       <CFormControl
                         placeholder="Student ID"
@@ -200,7 +200,7 @@ const Register = () => {
                     </CInputGroup>
                     <CInputGroup className="mb-3">
                       <CInputGroupText>
-                        <CIcon icon="cil-lock-locked" />
+                        <CIcon icon={React.icons.cilLockLocked} />
                       </CInputGroupText>
                       <CFormControl
                         type="password"
@@ -211,7 +211,7 @@ const Register = () => {
                     </CInputGroup>
                     <CInputGroup className="mb-4">
                       <CInputGroupText>
-                        <CIcon icon="cil-lock-locked" />
+                        <CIcon icon={React.icons.cilLockLocked} />
                       </CInputGroupText>
                       <CFormControl
                         type="password"
@@ -235,7 +235,7 @@ const Register = () => {
                         </CInputGroup>
                         <CInputGroup className="mb-3">
                           <CInputGroupText>
-                            <CIcon icon="cil-image" />
+                            <CIcon icon={React.icons.cilImage} />
                           </CInputGroupText>
                           <CFormControl
                             id="formFile"

@@ -14,7 +14,7 @@ const SearchBar = ({ rootRoute, keywords, setKeywords }) => {
   return (
     <CInputGroup>
       <CButton onClick={handleBackToHome} color="light">
-        <CIcon icon="cil-home" />
+        <CIcon icon={React.icons.cilHome} />
       </CButton>
       <CFormControl
         type="search"
@@ -24,7 +24,7 @@ const SearchBar = ({ rootRoute, keywords, setKeywords }) => {
         value={keywords ? keywords : ''}
       ></CFormControl>
       <CButton color="light" onClick={handleSearch}>
-        <CIcon icon="cil-search" />
+        <CIcon icon={React.icons.cilSearch} />
       </CButton>
     </CInputGroup>
   )

@@ -122,7 +122,7 @@ const Recruitment = () => {
                 }}
                 color="light"
               >
-                <CIcon icon="cil-home" />
+                <CIcon icon={React.icons.cilHome} />
               </CButton>
               <CFormControl
                 type="search"
@@ -133,7 +133,7 @@ const Recruitment = () => {
                 }}
               ></CFormControl>
               <CButton color="light" onClick={(e) => searchData(e)}>
-                <CIcon icon="cil-search" />
+                <CIcon icon={React.icons.cilSearch} />
               </CButton>
             </CInputGroup>
           </form>

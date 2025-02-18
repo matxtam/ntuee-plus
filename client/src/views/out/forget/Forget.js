@@ -49,7 +49,7 @@ const Forget = () => {
                   <p>We'll help you!</p>
                   <CInputGroup className="mb-3">
                     <CInputGroupText>
-                      <CIcon icon="cil-education" />
+                      <CIcon icon={React.icons.cilEducation} />
                     </CInputGroupText>
                     <CFormControl
                       placeholder="Student ID"

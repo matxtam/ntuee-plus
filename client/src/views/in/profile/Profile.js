@@ -70,7 +70,7 @@ const Profile = () => {
               <CListGroupItem>
                 <h6 className="mb-0">
                   <CAvatar>
-                    <CIcon icon="website"></CIcon>
+                    <CIcon icon={React.icons.website}></CIcon>
                   </CAvatar>
                   Website
                 </h6>
@@ -79,7 +79,7 @@ const Profile = () => {
               <CListGroupItem>
                 <h6 className="mb-0">
                   <CAvatar>
-                    <CIcon icon="cib-github"></CIcon>
+                    <CIcon icon={React.icons.cibGithub}></CIcon>
                   </CAvatar>
                   Github
                 </h6>
@@ -88,7 +88,7 @@ const Profile = () => {
               <CListGroupItem>
                 <h6 className="mb-0">
                   <CAvatar>
-                    <CIcon icon="cib-linkedin"></CIcon>
+                    <CIcon icon={React.icons.cibLinkedin}></CIcon>
                   </CAvatar>
                   Linkedin
                 </h6>
@@ -97,7 +97,7 @@ const Profile = () => {
               <CListGroupItem>
                 <h6 className="mb-0">
                   <CAvatar>
-                    <CIcon icon="cib-facebook"></CIcon>
+                    <CIcon icon={React.icons.cibFacebook}></CIcon>
                   </CAvatar>
                   Facebook
                 </h6>

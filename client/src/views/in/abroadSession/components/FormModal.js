@@ -123,7 +123,7 @@ const FormModal = ({ visible, setVisible, data, setData, refresh }) => {
           <CForm>
             <CInputGroup className="mb-3">
               <CInputGroupText>
-                <CIcon icon="cil-user" />
+                <CIcon icon={React.icons.cilUser} />
               </CInputGroupText>
               <CFormControl
                 data-for="title"
@@ -138,7 +138,7 @@ const FormModal = ({ visible, setVisible, data, setData, refresh }) => {
             </CInputGroup>
             <CInputGroup className="mb-3">
               <CInputGroupText>
-                <CIcon icon="cil-user" />
+                <CIcon icon={React.icons.cilUser} />
               </CInputGroupText>
               <CFormControl
                 data-for="intro"
@@ -153,7 +153,7 @@ const FormModal = ({ visible, setVisible, data, setData, refresh }) => {
             </CInputGroup>
             <CInputGroup className="mb-3">
               <CInputGroupText>
-                <CIcon icon="cil-user" />
+                <CIcon icon={React.icons.cilUser} />
               </CInputGroupText>
               <CFormControl
                 data-for="YT-link"
@@ -169,7 +169,7 @@ const FormModal = ({ visible, setVisible, data, setData, refresh }) => {
             <CInputGroup className="mb-3">
               <CInputGroupText className={data.img ? 'bg-info' : ''}>
                 <CIcon
-                  icon="cil-image"
+                  icon={React.icons.cilImage}
                   onMouseEnter={() => handleEnterImgIcon()}
                   onMouseLeave={() => handleLeaveImgIcon()}
                 />
@@ -205,7 +205,7 @@ const FormModal = ({ visible, setVisible, data, setData, refresh }) => {
                 <Fragment key={index}>
                   <CInputGroup className="mb-3">
                     <CInputGroupText>
-                      <CIcon icon="cil-user" />
+                      <CIcon icon={React.icons.cilUser} />
                     </CInputGroupText>
                     <CFormControl
                       data-for="otherLinks"
@@ -223,7 +223,7 @@ const FormModal = ({ visible, setVisible, data, setData, refresh }) => {
                   </CInputGroup>
                   <CInputGroup className="mb-3">
                     <CInputGroupText>
-                      <CIcon icon="cil-user" />
+                      <CIcon icon={React.icons.cilUser} />
                     </CInputGroupText>
                     <CFormControl
                       data-for="description"
@@ -241,7 +241,7 @@ const FormModal = ({ visible, setVisible, data, setData, refresh }) => {
             })}
             <CInputGroup className="mb-4 d-flex flex-row">
               <CInputGroupText>
-                <CIcon icon="cil-user" />
+                <CIcon icon={React.icons.cilUser} />
               </CInputGroupText>
               <CButton
                 type="button"

@@ -150,11 +150,11 @@ const Dashboard = () => {
                       {isAuth && (
                         <>
                           <Link to={`/auth/announce/${ann._id}`}>
-                            <CIcon icon="cil-pencil" className="mx-3" />
+                            <CIcon icon={React.icons.cilPencil} className="mx-3" />
                           </Link>
                           <CIcon
                             onClick={(e) => delAnnouncement(ann._id)}
-                            icon="cil-trash"
+                            icon={React.icons.cilTrash}
                             className="mr-3"
                           />
                         </>

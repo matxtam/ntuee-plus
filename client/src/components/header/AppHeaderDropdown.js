@@ -44,27 +44,27 @@ const AppHeaderDropdown = () => {
       <CDropdownMenu className="pt-0" placement="bottom-end">
         <CDropdownHeader className="bg-light fw-semibold py-2">Your Space</CDropdownHeader>
         <CDropdownItem component={Link} to={`/profile/${studentID}`}>
-          <CIcon icon="cil-user" className="me-2" />
+          <CIcon icon={React.icons.cilUser} className="me-2" />
           Profile
         </CDropdownItem>
 
         <CDropdownItem component={Link} to="/own_recruitment">
-          <CIcon icon="cil-user" className="me-2" />
+          <CIcon icon={React.icons.cilUser} className="me-2" />
           Your Recruitment
         </CDropdownItem>
 
         <CDropdownItem component={Link} to={`/own_recommendation`}>
-          <CIcon icon="cil-user" className="me-2" />
+          <CIcon icon={React.icons.cilUser} className="me-2" />
           Your Recommendation
         </CDropdownItem>
 
         <CDropdownItem component={Link} to={`/change_password`}>
-          <CIcon icon="cil-lock-locked" className="me-2" />
+          <CIcon icon={React.icons.cilLockLocked} className="me-2" />
           Change Password
         </CDropdownItem>
 
         {/* <CDropdownItem href="#">
-          <CIcon name="cil-credit-card" className="me-2" />
+          <CIcon name="cilCreditCard" className="me-2" />
           Payments
           <CBadge color="secondary" className="ms-2">
             42
@@ -72,7 +72,7 @@ const AppHeaderDropdown = () => {
         </CDropdownItem> */}
         <CDropdownDivider />
         <CDropdownItem onClick={handleLogOut}>
-          <CIcon icon="cil-lock-locked" className="me-2" />
+          <CIcon icon={React.icons.cilLockLocked} className="me-2" />
           Logout
         </CDropdownItem>
       </CDropdownMenu>

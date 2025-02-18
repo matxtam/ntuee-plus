@@ -111,7 +111,7 @@ const Contact = () => {
                 <h3>Contact Info</h3>
                 <p>
                   <span>
-                    <CIcon icon="cil-home" /> Address
+                    <CIcon icon={React.icons.cilHome} /> Address
                   </span>
                   台灣大學博理館 B1 系學會辦
                 </p>
@@ -119,7 +119,7 @@ const Contact = () => {
               <div className="contact-item">
                 <p>
                   <span>
-                    <CIcon icon="cib-gmail" /> Email
+                    <CIcon icon={React.icons.cibGmail} /> Email
                   </span>{' '}
                   eeplus2020@gmail.com
                 </p>
@@ -127,7 +127,7 @@ const Contact = () => {
               <div className="contact-item">
                 <p>
                   <span>
-                    <CIcon icon="cil-dollar" /> Support
+                    <CIcon icon={React.icons.cilDollar} /> Support
                   </span>{' '}
                   700-0001236-0553850(Taiwan)
                 </p>
@@ -143,7 +143,7 @@ const Contact = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <CIcon icon="cib-facebook" customClassName="social-icon" />
+                        <CIcon icon={React.icons.cibFacebook} customClassName="social-icon" />
                       </a>
                     </li>
                     <li>
@@ -152,7 +152,7 @@ const Contact = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <CIcon icon="cib-instagram" customClassName="social-icon" />
+                        <CIcon icon={React.icons.cibInstagram} customClassName="social-icon" />
                       </a>
                     </li>
                     <li>
@@ -161,7 +161,7 @@ const Contact = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <CIcon icon="cib-github" customClassName="social-icon" />
+                        <CIcon icon={React.icons.cibGithub} customClassName="social-icon" />
                       </a>
                     </li>
                   </ul>

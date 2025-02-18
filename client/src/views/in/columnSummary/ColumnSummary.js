@@ -225,7 +225,10 @@ const ColumnSummary = () => {
                       Delete
                     </CButton>
                     <Link to={`/auth/edit_column/${art.id}`}>
-                      <CIcon icon="cil-pencil" style={{ scale: '1.7', marginLeft: '1rem' }}></CIcon>
+                      <CIcon
+                        icon={React.icons.cilPencil}
+                        style={{ scale: '1.7', marginLeft: '1rem' }}
+                      ></CIcon>
                     </Link>
                   </div>
                 )}
@@ -258,7 +261,7 @@ const ColumnSummary = () => {
               }}
               color="light"
             >
-              <CIcon icon="cil-home" />
+              <CIcon icon={React.icons.cilHome} />
             </CButton>
             <CFormControl
               type="search"
@@ -267,7 +270,7 @@ const ColumnSummary = () => {
               value={keywords ? keywords : ''}
             ></CFormControl>
             <CButton color="light" type="submit">
-              <CIcon icon="cil-search" />
+              <CIcon icon={React.icons.cilSearch} />
             </CButton>
           </CInputGroup>
         </form>

@@ -43,7 +43,7 @@ const Page3 = ({
       {/* 3-1 */}
       <CInputGroup className="mb-3">
         <CInputGroupText>
-          <CIcon icon="cil-calendar" />
+          <CIcon icon={React.icons.cilCalendar} />
         </CInputGroupText>
         <CFormControl
           data-for="date"
@@ -61,7 +61,7 @@ const Page3 = ({
         return (
           <CInputGroup className="mb-3" key={index}>
             <CInputGroupText>
-              <CIcon icon="cil-address-book" />
+              <CIcon icon={React.icons.cilAddressBook} />
             </CInputGroupText>
             <CFormControl
               data-for="job"
@@ -130,7 +130,7 @@ const Page3 = ({
       {/* 3-3 */}
       <CInputGroup className="mb-3">
         <CInputGroupText>
-          <CIcon icon="cil-image" />
+          <CIcon icon={React.icons.cilImage} />
         </CInputGroupText>
         <CFormControl
           data-for="image"

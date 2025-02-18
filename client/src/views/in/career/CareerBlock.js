@@ -122,12 +122,15 @@ const CareerBlock = ({ post, isAuth }) => {
                 <>
                   {own && (
                     <Link to={`/edit_recruitment/${post._id}`}>
-                      <CIcon icon="cil-pencil" style={{ scale: '1.7', marginLeft: '1rem' }}></CIcon>
+                      <CIcon
+                        icon={React.icons.cilPencil}
+                        style={{ scale: '1.7', marginLeft: '1rem' }}
+                      ></CIcon>
                     </Link>
                   )}
                   <CAvatar className="hover-pointer">
                     <CIcon
-                      icon="cil-trash"
+                      icon={React.icons.cilTrash}
                       style={{ scale: '1.7' }}
                       onClick={() => deleteCareer(post._id)}
                     ></CIcon>
@@ -215,12 +218,15 @@ const CareerBlock = ({ post, isAuth }) => {
                 <>
                   {own && (
                     <Link to={`/edit_recommendation/${post._id}`}>
-                      <CIcon icon="cil-pencil" style={{ scale: '1.7', marginLeft: '1rem' }}></CIcon>
+                      <CIcon
+                        icon={React.icons.cilPencil}
+                        style={{ scale: '1.7', marginLeft: '1rem' }}
+                      ></CIcon>
                     </Link>
                   )}
                   <CAvatar className="hover-pointer">
                     <CIcon
-                      icon="cil-trash"
+                      icon={React.icons.cilTrash}
                       style={{ scale: '1.7', marginLeft: '1rem' }}
                       onClick={() => deleteCareer(post._id)}
                     ></CIcon>
