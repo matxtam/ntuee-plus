@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 import AOS from 'aos'
 import './scss/style.scss'
 
@@ -19,7 +19,10 @@ const App = () => {
         }
       >
         <Switch>
-          <Route path="/" name="Home" render={(props) => <DefaultLayout {...props} />} />
+          <Route exact path="/">
+            <Redirect to="/home" />
+          </Route>
+          <Route path="/home" name="Home" render={(props) => <DefaultLayout {...props} />} />
         </Switch>
       </React.Suspense>
     </BrowserRouter>
