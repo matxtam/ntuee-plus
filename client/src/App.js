@@ -22,7 +22,7 @@ const App = () => {
           <Route exact path="/">
             <Redirect to="/home" />
           </Route>
-          <Route path="/home" name="Home" render={(props) => <DefaultLayout {...props} />} />
+          <Route path="/" name="Home" render={(props) => <DefaultLayout {...props} />} />
         </Switch>
       </React.Suspense>
     </BrowserRouter>
